@@ -1,0 +1,19 @@
+{
+  "title": "Clone IT",
+  "name": "clone-it",
+  "version": "1.1.3",
+  "description": "Allows easy duplication of current tab in new tab or window, Similar to Goggle chrome default feature, This feature is already available by holding down CTRL key or Command + dragging the tab to left or right.",
+  "main": "index.js",
+  "author": "8pecxstudios",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "icon": {
+    "32": "resource://@clone-it/data/images/icon32.png",
+    "64": "resource://@clone-it/data/images/icon64.png"
+  },
+  "license": "MPL-2.0",
+  "keywords": [
+    "jetpack"
+  ]
+}
