@@ -17,3 +17,20 @@ This feature is already available by holding down CTRL key | Command + dragging 
 - After install these 2 customizable buttons are available.
 
 No menu items only toolbar buttons.
+
+This addon was created in visual studios code.
+
+####  To build (Platform):
+
+- `Windows:` __CTRL + SHIFT + B__
+
+#### Task Runner (Visual Studio Code):
+
+- `Windows:` __CTRL + SHIFT + P__
+
+| Task | Command | Result |
+|----------|:-------------:|------:|
+| Build | task build | Builds addon *.xpi |
+| Test | task test | Runs tests printing to task console. |
+| Run | task run | Spawns firefox with new profile instance. |
+| Sign | task sign | Builds then signs the addon using AMO signing api. |
